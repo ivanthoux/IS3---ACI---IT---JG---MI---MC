@@ -1,4 +1,4 @@
-# Ingenieria en Software II - Actualidad Informatica
+# Ingenieria en Software III - Actualidad Informatica
 
 ## Integrantes:
 
