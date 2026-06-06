@@ -1,0 +1,47 @@
+services:
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: eventos_app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    env_file:
+      - .env
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - eventos_network
+
+  db:
+    image: postgres:15-alpine
+    container_name: eventos_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: eventos_academicos
+      POSTGRES_USER: postgre
+      POSTGRES_PASSWORD: 2850
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgre -d eventos_academicos"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - eventos_network
+
+volumes:
+  pgdata:
+
+networks:
+  eventos_network:
+    driver: bridge
