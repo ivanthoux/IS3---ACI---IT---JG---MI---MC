@@ -3,7 +3,7 @@
 **Estado:** Propuesto  
 **Fecha:** 2026-06-09  
 **Decisores:** Caruk, Maria Eugenia; Equipo de Desarrollo  
-**Relacionado:** Spec 01 (OWASP Controles), Issue #XX  
+**Relacionado:** Spec 01 (OWASP Controles), Issue #27  
 
 ---.
 

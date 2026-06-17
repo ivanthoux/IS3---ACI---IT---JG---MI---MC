@@ -3,7 +3,7 @@
 **Estado:** Propuesto  
 **Fecha:** 2026-06-09  
 **Decisores:** Thoux, Ivan Ezequiel; Equipo de Desarrollo  
-**Relacionado:** Spec 07, Issue #XX  
+**Relacionado:** Spec 07, Issue #28  
 
 ---
 
