@@ -5,7 +5,7 @@
 **Decisores:** Caruk, Maria Eugenia; Equipo de Desarrollo  
 **Relacionado:** Spec 01 (OWASP Controles), Issue #XX  
 
----
+---.
 
 ## Contexto
 
