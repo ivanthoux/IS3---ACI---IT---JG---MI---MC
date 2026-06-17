@@ -3,7 +3,7 @@
 **Estado:** Propuesto  
 **Fecha:** 2026-06-09  
 **Decisores:** Ivasiuta, Magdalena Ramona; Equipo de Desarrollo  
-**Relacionado:** Spec 05, Issue #XX  
+**Relacionado:** Spec 05, Issue #25  
 
 ---
 
